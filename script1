@@ -1,0 +1,9 @@
+#!/bin/bash
+for i in {1..2}
+do
+echo "loading"
+sleep 2
+echo "finished"
+done
+echo 10 > 1.txt
+sleep 3600
