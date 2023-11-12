@@ -1,0 +1,4 @@
+#!/bin/bash
+a=$(pgrep script1)
+kill  $a
+
